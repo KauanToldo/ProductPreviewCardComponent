@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [SolutionURL](https://kauantoldo.github.io/ProductPreviewCardComponent/)
 
 ### Built with
 
@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/KauanToldo)
+- Frontend Mentor - [@KauanToldo](https://www.frontendmentor.io/profile/KauanToldo)
 
