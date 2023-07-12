@@ -34,10 +34,18 @@ body {
     background-color: var(--White);
 }
 
-#img-preview {
+#img-preview-desktop {
     width: 50%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+#img-preview-mobile {
+    height: 30%;
+    display: none;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #product-info{
@@ -113,4 +121,20 @@ body {
 
 #add-cart svg {
     margin-right: 10px;
+}
+
+@media screen and (max-width: 520px) {
+    #card-container {
+        flex-direction: column;
+        width: 250px;
+        height: 550px;
+    }
+
+    #img-preview-desktop {
+        display: none !important;
+    }
+
+    #img-preview-mobile {
+        display: block !important;
+    }
 }
